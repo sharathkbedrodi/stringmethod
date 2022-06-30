@@ -31,5 +31,31 @@ class stdemo
     System.out.println("\n substring of "+st2+" from 6th char is:"+pt5);
    }
  }
+ 
+ //StringBuffer programs
+ import java.lang.*;
+class stdemo2
+ {
+  static StringBuffer st1=new StringBuffer("JAVA  Language");
+  static StringBuffer pt5=new StringBuffer("& is Platform_independent");
+  public static void main (String args[])
+  {
+   System.out.println("Given string is:"+st1);
+   int lst1=st1.length();
+   System.out.println("Length of given string is:"+lst1);
+   st1.insert(5,"a Evalutionary");
+   System.out.println("\n String after inserting a substring:");
+   System.out.println(st1);
+   st1.setCharAt(7,'R');
+   st1.insert(8,'e');
+   System.out.println("\n modified string after replacing a character");
+   System.out.println(st1);
+   st1.append(pt5);
+   System.out.println("\n modified string after appending substring");
+   System.out.println(st1);
+   }
+ }
+
+
 
 
