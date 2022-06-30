@@ -1,2 +1,0 @@
-# stringmethod
-string method program

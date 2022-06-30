@@ -1,0 +1,35 @@
+# stringmethod
+string method program
+import java.lang.*;
+class stdemo
+ {
+  static String st1="sonu nigam";
+  static String st2="COMPUTER SCIENCE";
+  static String pt1,pt2,pt3,pt4,pt5;
+  public static void main(String args[])
+   {
+    int lst1=st1.length();
+    int lst2=st2.length();
+    pt1=st1.toUpperCase();
+    pt2=st2.toLowerCase();
+    pt3=st2.replace('T','L');
+    pt4=st1.concat(st2);
+    pt5=st2.substring(6);
+
+    System.out.println("Given two strings"+st1+"and"+st2);
+    System.out.println("\n");
+    System.out.println(st1+"length is="+lst1);
+    System.out.println("\n");
+    System.out.println(st2+"length is="+lst2);
+    System.out.println("\n");
+    System.out.println(st1+"in uppercase is:"+pt1);
+    System.out.println("\n");
+    System.out.println(st2+"in lowerrcase is:"+pt2);
+    System.out.println("\n");
+    System.out.println("\n Every T is replaced with L as:"+pt3);
+    System.out.println("\n Two strings joined as:"+pt4);
+    System.out.println("\n substring of "+st2+" from 6th char is:"+pt5);
+   }
+ }
+
+
